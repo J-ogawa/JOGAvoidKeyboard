@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB44B0218EC764F000935A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB44B0118EC764F000935A9 /* Foundation.framework */; };
+		EFB44B0418EC764F000935A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB44B0318EC764F000935A9 /* CoreGraphics.framework */; };
+		EFB44B0618EC764F000935A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB44B0518EC764F000935A9 /* UIKit.framework */; };
+		EFB44B0C18EC764F000935A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFB44B0A18EC764F000935A9 /* InfoPlist.strings */; };
+		EFB44B0E18EC764F000935A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB44B0D18EC764F000935A9 /* main.m */; };
+		EFB44B1218EC764F000935A9 /* JOGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB44B1118EC764F000935A9 /* JOGAppDelegate.m */; };
+		EFB44B1518EC764F000935A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB44B1318EC764F000935A9 /* Main.storyboard */; };
+		EFB44B1818EC764F000935A9 /* JOGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB44B1718EC764F000935A9 /* JOGViewController.m */; };
+		EFB44B1A18EC764F000935A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB44B1918EC764F000935A9 /* Images.xcassets */; };
+		EFB44B2118EC764F000935A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB44B2018EC764F000935A9 /* XCTest.framework */; };
+		EFB44B2218EC764F000935A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB44B0118EC764F000935A9 /* Foundation.framework */; };
+		EFB44B2318EC764F000935A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB44B0518EC764F000935A9 /* UIKit.framework */; };
+		EFB44B2B18EC764F000935A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFB44B2918EC764F000935A9 /* InfoPlist.strings */; };
+		EFB44B2D18EC764F000935A9 /* JOGAvoidKeyboardSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB44B2C18EC764F000935A9 /* JOGAvoidKeyboardSampleTests.m */; };
+		EFB44B3818EC76B7000935A9 /* JOGAvoidKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB44B3718EC76B7000935A9 /* JOGAvoidKeyboardViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB44B2418EC764F000935A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB44AF618EC764F000935A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB44AFD18EC764F000935A9;
+			remoteInfo = JOGAvoidKeyboardSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFB44AFE18EC764F000935A9 /* JOGAvoidKeyboardSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JOGAvoidKeyboardSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB44B0118EC764F000935A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFB44B0318EC764F000935A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFB44B0518EC764F000935A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFB44B0918EC764F000935A9 /* JOGAvoidKeyboardSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JOGAvoidKeyboardSample-Info.plist"; sourceTree = "<group>"; };
+		EFB44B0B18EC764F000935A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFB44B0D18EC764F000935A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFB44B0F18EC764F000935A9 /* JOGAvoidKeyboardSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JOGAvoidKeyboardSample-Prefix.pch"; sourceTree = "<group>"; };
+		EFB44B1018EC764F000935A9 /* JOGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JOGAppDelegate.h; sourceTree = "<group>"; };
+		EFB44B1118EC764F000935A9 /* JOGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOGAppDelegate.m; sourceTree = "<group>"; };
+		EFB44B1418EC764F000935A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB44B1618EC764F000935A9 /* JOGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JOGViewController.h; sourceTree = "<group>"; };
+		EFB44B1718EC764F000935A9 /* JOGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOGViewController.m; sourceTree = "<group>"; };
+		EFB44B1918EC764F000935A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFB44B1F18EC764F000935A9 /* JOGAvoidKeyboardSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JOGAvoidKeyboardSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB44B2018EC764F000935A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EFB44B2818EC764F000935A9 /* JOGAvoidKeyboardSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JOGAvoidKeyboardSampleTests-Info.plist"; sourceTree = "<group>"; };
+		EFB44B2A18EC764F000935A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFB44B2C18EC764F000935A9 /* JOGAvoidKeyboardSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOGAvoidKeyboardSampleTests.m; sourceTree = "<group>"; };
+		EFB44B3618EC76B7000935A9 /* JOGAvoidKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOGAvoidKeyboardViewController.h; sourceTree = "<group>"; };
+		EFB44B3718EC76B7000935A9 /* JOGAvoidKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOGAvoidKeyboardViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB44AFB18EC764F000935A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB44B0418EC764F000935A9 /* CoreGraphics.framework in Frameworks */,
+				EFB44B0618EC764F000935A9 /* UIKit.framework in Frameworks */,
+				EFB44B0218EC764F000935A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB44B1C18EC764F000935A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB44B2118EC764F000935A9 /* XCTest.framework in Frameworks */,
+				EFB44B2318EC764F000935A9 /* UIKit.framework in Frameworks */,
+				EFB44B2218EC764F000935A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB44AF518EC764F000935A9 = {
+			isa = PBXGroup;
+			children = (
+				EFB44B0718EC764F000935A9 /* JOGAvoidKeyboardSample */,
+				EFB44B2618EC764F000935A9 /* JOGAvoidKeyboardSampleTests */,
+				EFB44B0018EC764F000935A9 /* Frameworks */,
+				EFB44AFF18EC764F000935A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB44AFF18EC764F000935A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB44AFE18EC764F000935A9 /* JOGAvoidKeyboardSample.app */,
+				EFB44B1F18EC764F000935A9 /* JOGAvoidKeyboardSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB44B0018EC764F000935A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFB44B0118EC764F000935A9 /* Foundation.framework */,
+				EFB44B0318EC764F000935A9 /* CoreGraphics.framework */,
+				EFB44B0518EC764F000935A9 /* UIKit.framework */,
+				EFB44B2018EC764F000935A9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFB44B0718EC764F000935A9 /* JOGAvoidKeyboardSample */ = {
+			isa = PBXGroup;
+			children = (
+				EFB44B1018EC764F000935A9 /* JOGAppDelegate.h */,
+				EFB44B1118EC764F000935A9 /* JOGAppDelegate.m */,
+				EFB44B1318EC764F000935A9 /* Main.storyboard */,
+				EFB44B1618EC764F000935A9 /* JOGViewController.h */,
+				EFB44B1718EC764F000935A9 /* JOGViewController.m */,
+				EFB44B3618EC76B7000935A9 /* JOGAvoidKeyboardViewController.h */,
+				EFB44B3718EC76B7000935A9 /* JOGAvoidKeyboardViewController.m */,
+				EFB44B1918EC764F000935A9 /* Images.xcassets */,
+				EFB44B0818EC764F000935A9 /* Supporting Files */,
+			);
+			path = JOGAvoidKeyboardSample;
+			sourceTree = "<group>";
+		};
+		EFB44B0818EC764F000935A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFB44B0918EC764F000935A9 /* JOGAvoidKeyboardSample-Info.plist */,
+				EFB44B0A18EC764F000935A9 /* InfoPlist.strings */,
+				EFB44B0D18EC764F000935A9 /* main.m */,
+				EFB44B0F18EC764F000935A9 /* JOGAvoidKeyboardSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFB44B2618EC764F000935A9 /* JOGAvoidKeyboardSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB44B2C18EC764F000935A9 /* JOGAvoidKeyboardSampleTests.m */,
+				EFB44B2718EC764F000935A9 /* Supporting Files */,
+			);
+			path = JOGAvoidKeyboardSampleTests;
+			sourceTree = "<group>";
+		};
+		EFB44B2718EC764F000935A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFB44B2818EC764F000935A9 /* JOGAvoidKeyboardSampleTests-Info.plist */,
+				EFB44B2918EC764F000935A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB44AFD18EC764F000935A9 /* JOGAvoidKeyboardSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB44B3018EC764F000935A9 /* Build configuration list for PBXNativeTarget "JOGAvoidKeyboardSample" */;
+			buildPhases = (
+				EFB44AFA18EC764F000935A9 /* Sources */,
+				EFB44AFB18EC764F000935A9 /* Frameworks */,
+				EFB44AFC18EC764F000935A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JOGAvoidKeyboardSample;
+			productName = JOGAvoidKeyboardSample;
+			productReference = EFB44AFE18EC764F000935A9 /* JOGAvoidKeyboardSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB44B1E18EC764F000935A9 /* JOGAvoidKeyboardSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB44B3318EC764F000935A9 /* Build configuration list for PBXNativeTarget "JOGAvoidKeyboardSampleTests" */;
+			buildPhases = (
+				EFB44B1B18EC764F000935A9 /* Sources */,
+				EFB44B1C18EC764F000935A9 /* Frameworks */,
+				EFB44B1D18EC764F000935A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB44B2518EC764F000935A9 /* PBXTargetDependency */,
+			);
+			name = JOGAvoidKeyboardSampleTests;
+			productName = JOGAvoidKeyboardSampleTests;
+			productReference = EFB44B1F18EC764F000935A9 /* JOGAvoidKeyboardSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB44AF618EC764F000935A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JOG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = debussynetwork;
+				TargetAttributes = {
+					EFB44B1E18EC764F000935A9 = {
+						TestTargetID = EFB44AFD18EC764F000935A9;
+					};
+				};
+			};
+			buildConfigurationList = EFB44AF918EC764F000935A9 /* Build configuration list for PBXProject "JOGAvoidKeyboardSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB44AF518EC764F000935A9;
+			productRefGroup = EFB44AFF18EC764F000935A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB44AFD18EC764F000935A9 /* JOGAvoidKeyboardSample */,
+				EFB44B1E18EC764F000935A9 /* JOGAvoidKeyboardSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB44AFC18EC764F000935A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB44B1A18EC764F000935A9 /* Images.xcassets in Resources */,
+				EFB44B0C18EC764F000935A9 /* InfoPlist.strings in Resources */,
+				EFB44B1518EC764F000935A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB44B1D18EC764F000935A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB44B2B18EC764F000935A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB44AFA18EC764F000935A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB44B3818EC76B7000935A9 /* JOGAvoidKeyboardViewController.m in Sources */,
+				EFB44B0E18EC764F000935A9 /* main.m in Sources */,
+				EFB44B1218EC764F000935A9 /* JOGAppDelegate.m in Sources */,
+				EFB44B1818EC764F000935A9 /* JOGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB44B1B18EC764F000935A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB44B2D18EC764F000935A9 /* JOGAvoidKeyboardSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB44B2518EC764F000935A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB44AFD18EC764F000935A9 /* JOGAvoidKeyboardSample */;
+			targetProxy = EFB44B2418EC764F000935A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB44B0A18EC764F000935A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB44B0B18EC764F000935A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFB44B1318EC764F000935A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB44B1418EC764F000935A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB44B2918EC764F000935A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB44B2A18EC764F000935A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB44B2E18EC764F000935A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFB44B2F18EC764F000935A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB44B3118EC764F000935A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JOGAvoidKeyboardSample/JOGAvoidKeyboardSample-Prefix.pch";
+				INFOPLIST_FILE = "JOGAvoidKeyboardSample/JOGAvoidKeyboardSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFB44B3218EC764F000935A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JOGAvoidKeyboardSample/JOGAvoidKeyboardSample-Prefix.pch";
+				INFOPLIST_FILE = "JOGAvoidKeyboardSample/JOGAvoidKeyboardSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EFB44B3418EC764F000935A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JOGAvoidKeyboardSample.app/JOGAvoidKeyboardSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JOGAvoidKeyboardSample/JOGAvoidKeyboardSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JOGAvoidKeyboardSampleTests/JOGAvoidKeyboardSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EFB44B3518EC764F000935A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JOGAvoidKeyboardSample.app/JOGAvoidKeyboardSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JOGAvoidKeyboardSample/JOGAvoidKeyboardSample-Prefix.pch";
+				INFOPLIST_FILE = "JOGAvoidKeyboardSampleTests/JOGAvoidKeyboardSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB44AF918EC764F000935A9 /* Build configuration list for PBXProject "JOGAvoidKeyboardSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB44B2E18EC764F000935A9 /* Debug */,
+				EFB44B2F18EC764F000935A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB44B3018EC764F000935A9 /* Build configuration list for PBXNativeTarget "JOGAvoidKeyboardSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB44B3118EC764F000935A9 /* Debug */,
+				EFB44B3218EC764F000935A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB44B3318EC764F000935A9 /* Build configuration list for PBXNativeTarget "JOGAvoidKeyboardSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB44B3418EC764F000935A9 /* Debug */,
+				EFB44B3518EC764F000935A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB44AF618EC764F000935A9 /* Project object */;
+}
