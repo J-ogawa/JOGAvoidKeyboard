@@ -31,7 +31,7 @@
 
 - (void)textFieldDidEndEditing:(UITextField *)textField
 {
-    self.showParts = textField;
+    self.showParts = nil;
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
